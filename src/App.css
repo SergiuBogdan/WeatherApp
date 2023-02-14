@@ -1,0 +1,72 @@
+.weather {
+  background: url("./assets/background.webp");
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  color: white;
+  font-weight: 700;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+.input-control {
+  width: 31.2rem;
+}
+
+.weatherResultBox {
+  margin-top: 2rem;
+  width: 500px;
+  height: 600px;
+  background-color: rgba(10, 113, 238, 0.801);
+  border-radius: 35px;
+}
+
+.weatherIcon {
+  margin-top: 2rem;
+  width: 150px;
+  height: 150px;
+  margin-left: 11.2rem;
+}
+
+.weatherCity {
+  font-size: 4rem;
+  margin-left: 11rem;
+}
+.weatherTemp {
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.weatherHumidity {
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.weatherPressure {
+  font-size: 1.9rem;
+  color: aliceblue;
+}
+
+.weatherWindSpeed {
+  font-size: 1.9rem;
+  color: aliceblue;
+}
+
+.btn {
+  margin-top: 25px;
+  width: 15rem;
+}
+
+.weatherClouds {
+  font-size: 1.9rem;
+  color: aliceblue;
+}
+
+.img-temp {
+  width: 50px;
+  margin-left: 20px;
+}
